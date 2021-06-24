@@ -1,3 +1,3 @@
 module.exports = {
-  secret: 'idstack-node-auth-mysql',
+  secret: process.env.APP_KEY,
 }
